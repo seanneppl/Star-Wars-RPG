@@ -1,0 +1,86 @@
+body, html{
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("../assets/X-Wing.jpg");
+           }
+       
+        .select,
+        .enemy {
+            display: inline-block;
+        }
+        .hide{
+            display: none;
+        }
+        .div{
+            width: 150px;
+            height: 100px;
+            border: 2px solid green;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        .div p {
+            text-align: center;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            /* line-height: 1.5; */
+            padding-bottom: 5px;
+        }
+        .div img{
+            
+            width: 100px;
+            height: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding-bottom: 5px;
+            
+        }
+        h1{
+            font-family: 'Prosto One', Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            padding: 15px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+       
+
+        button{
+            margin-left: 15px;
+        }
+        .header{
+            /* right: 0px;
+            float: right;
+            clear: both; */
+            margin-left: 60%;
+            /* padding-top: 20px; */
+        }
+        .select{
+            background-color: white;
+        }
+        .fighter{
+            background-color: white;
+            position: relative;
+        }
+        .enemy{
+            background-color: red;
+            border: 2px solid black;
+           
+            
+        }
+        .opponent{
+            background-color: black;  
+            border: 2px solid green;
+            color: white;
+            position: relative;
+        }
+        .message{
+            padding-left: 15px;
+            padding-bottom: 15px;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+           
+        }
